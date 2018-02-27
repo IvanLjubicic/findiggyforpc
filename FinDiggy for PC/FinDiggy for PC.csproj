@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2011C7E9-D509-4935-9BB5-432C90E97AA3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FinDiggy_for_PC</RootNamespace>
+    <AssemblyName>FinDiggy for PC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Ivan\Documents\visual studio published apps\findiggy for pc\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>en</TargetCulture>
+    <ProductName>FinDiggy for PC</ProductName>
+    <PublisherName>DIA Software Solutions</PublisherName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon_launcher.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F5D5207D30E4792DC01A0BDC0B6DF2A37AABECD0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>FinDiggy for PC_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AritReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AritReturn.Designer.cs">
+      <DependentUpon>AritReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContinuousCompounding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContinuousCompounding.Designer.cs">
+      <DependentUpon>ContinuousCompounding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CouponBonds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CouponBonds.Designer.cs">
+      <DependentUpon>CouponBonds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpectedRet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpectedRet.Designer.cs">
+      <DependentUpon>ExpectedRet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Npv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Npv.Designer.cs">
+      <DependentUpon>Npv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PeriodicCompounding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PeriodicCompounding.Designer.cs">
+      <DependentUpon>PeriodicCompounding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleInterest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleInterest.Designer.cs">
+      <DependentUpon>SimpleInterest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeasuresFEI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeasuresFEI.Designer.cs">
+      <DependentUpon>MeasuresFEI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoneyMarket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoneyMarket.Designer.cs">
+      <DependentUpon>MoneyMarket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StreamsOfPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StreamsOfPayments.Designer.cs">
+      <DependentUpon>StreamsOfPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeValueOfMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimeValueOfMoney.Designer.cs">
+      <DependentUpon>TimeValueOfMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZeroCoupon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZeroCoupon.Designer.cs">
+      <DependentUpon>ZeroCoupon.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AritReturn.resx">
+      <DependentUpon>AritReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContinuousCompounding.resx">
+      <DependentUpon>ContinuousCompounding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CouponBonds.resx">
+      <DependentUpon>CouponBonds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpectedRet.resx">
+      <DependentUpon>ExpectedRet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Npv.resx">
+      <DependentUpon>Npv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PeriodicCompounding.resx">
+      <DependentUpon>PeriodicCompounding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleInterest.resx">
+      <DependentUpon>SimpleInterest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeasuresFEI.resx">
+      <DependentUpon>MeasuresFEI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoneyMarket.resx">
+      <DependentUpon>MoneyMarket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="StreamsOfPayments.resx">
+      <DependentUpon>StreamsOfPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeValueOfMoney.resx">
+      <DependentUpon>TimeValueOfMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZeroCoupon.resx">
+      <DependentUpon>ZeroCoupon.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="FinDiggy for PC_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon_launcher.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

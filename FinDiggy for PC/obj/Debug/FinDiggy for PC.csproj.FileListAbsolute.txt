@@ -1,0 +1,26 @@
+c:\users\ivan\documents\visual studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\bin\Debug\FinDiggy for PC.exe.config
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\bin\Debug\FinDiggy for PC.exe
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\bin\Debug\FinDiggy for PC.pdb
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy for PC.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.frmAbout.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.frmMain.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.Properties.Resources.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy for PC.csproj.GenerateResource.Cache
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy for PC.exe
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy for PC.pdb
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.frmTimeValue.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.frmMonMark.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.frmMeasFEI.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.frmSimInt.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.frmPerComp.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.frmContComp.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.frmStreams.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.frmZeroCoup.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.frmCoupBon.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.frmNpv.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.frmAritRet.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy_for_PC.frmExcRet.resources
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\bin\Debug\FinDiggy for PC.exe.manifest
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\bin\Debug\FinDiggy for PC.application
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy for PC.exe.manifest
+C:\Users\Ivan\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\FinDiggy for PC\obj\Debug\FinDiggy for PC.application
